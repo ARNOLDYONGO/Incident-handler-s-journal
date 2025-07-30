@@ -1,13 +1,48 @@
 # Incident-handler-s-journal
+## Entry: # 1
 
 
-| Date: July 30, 2025 | Entry: # 1 |
+| Date: June 30, 2025 | Entry: # 1 |
 |-------| -------|
 | **Description** | Documenting a cybersecurity incident|
 | **Tool(s) used** | None. |
-| **The 5 W's** | -**What:** A ransomware security incident |
-|           | -**Where:** At a health care company |
-|           | -**When:** Tuesday 9:00 a.m. |
-|           | -**Why:** Because unethical hackers were able to access the company's systems using a phishing attack. After gaining access, the attackers launched a ransomware on the company's systems, encrypting critical files. The attackers' motivation appears to be financial because the ransom note demanded a large sum of money in exchange for the decryption key. |
-| **Additional notes** | How could the health care company prevent an incident like this from occurring again? |
-|            | Should the company pay the ransom to retrieve the decryption key? |
+| **The 5 W's** | -**What:** A ransomware security incident<br>-**Where:** At a health care company<br>-**When:** Tuesday 9:00 a.m.<br>-**Why:** Because unethical hackers were able to access the company's systems using a phishing attack. After gaining access, the attackers launched a ransomware on the company's systems, encrypting critical files. The attackers' motivation appears to be financial because the ransom note demanded a large sum of money in exchange for the decryption key. |
+| **Additional notes** | -How could the health care company prevent an incident like this from occurring again?<br>-Should the company pay the ransom to retrieve the decryption key? |
+
+
+## Entry: # 2
+| Date: July 1, 2025 | Entry: # 2 |    |    |     |
+|-------| -------| -------| -------| -------|
+| **Ticket ID** | **Alert Message** | **Severity** | **Details** | **Ticket Status** |
+| A-2703 | SERVER-MAIL Phishing attempt possible download of malware| Medium | The user may have opened a malicious email, opened attachments, or clicked links.| Escalated |
+
+| Ticket Comments|
+|-------|
+| The alert detected an employee downloading and opening a malicious file from a phishing email. There is an inconsistency between the sender’s email address **“76tguy6hh6tgftrt7tg.su’”** the name used in the email body **“Clyde West,”** and the sender’s name, **“Def Communications.”** The email body and subject line contained grammatical errors. The email’s body also contained a password-protected attachment, **“bfsvc.exe,”** which was downloaded and opened on the affected machine. Having previously investigated the file hash, it is confirmed to be a known malicious file. Furthermore, the alert severity is reported as **medium**. With these findings, I chose to escalate this ticket to a level-two SOC analyst to take further action. |
+
+### Additional information
+#### Known malicious file hash:
+54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b
+
+#### Email:
+From: Def Communications <76tguyhh6tgftrt7tg.su>  <114.114.114.114>
+Sent: Wednesday, July 20, 2022 09:30:14 AM
+To: <hr@inergy.com> <176.157.125.93>
+Subject: Re: Infrastructure Egnieer role
+
+Dear HR at Ingergy,
+
+I am writing for to express my interest in the engineer role posted from the website. There is attached my resume and cover letter. For privacy, the file is password protected. Use the password paradise10789 to open. 
+
+Thank you,
+
+Clyde West
+Attachment: filename="bfsvc.exe"
+
+Ref to Entry #2 links: 
+
+[Alert Ticket](https://docs.google.com/document/d/1JdoPwOKrt5M8wk8LGT1Ud3JEdEb1dUVA2w173h-pMxo/edit?tab=t.0)
+
+
+[Phishing Response playbook](https://docs.google.com/document/d/1PYA_7G89A_rHuy8AHxoRhAtkMbPBoJ-4E2DFM6st1g0/edit?tab=t.0)
+
